@@ -1,0 +1,111 @@
+/*selector {*/
+    /*property: value;*/
+/*}*/
+
+
+
+ul {
+    color: snow;
+    background-color: #01afbe;
+    max-width: 100px;
+
+}
+
+
+#sidebar a {
+    color: red;
+}
+
+p.small .button {
+    color: blue;
+}
+
+#special{
+    background-color: #aadd44;
+}
+
+.not-special{
+    background-color: silver;
+}
+
+.special-class{
+    background-color: yellow;
+    color: #000;
+}
+
+
+/*Affect every element on the page*/
+*{
+    font-family: Calibri;
+}
+
+/*Descent selectors*/
+
+li{
+    color:white;
+}
+
+ul li{
+    background-color: black;
+}
+
+ol li{
+    background-color: darkblue;
+}
+
+.kolorek{
+    color: deeppink;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.7;
+}
+
+hr{
+    border-color: lightcoral;
+    opacity: 0.6;
+}
+
+.content{
+
+    border: black solid;
+    padding: 10px 10px;
+    color: black;
+    font-family: 'Roboto', san-serif;
+    font-size: medium;
+    opacity: 0.7;
+    text-align: center;
+    margin: 20px 20px;
+    width: 50%;
+}
+
+.tabela{
+    margin: auto;
+
+}
+
+.tabela td{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.tabela tr{
+
+}
+
+.tabela td:hover{
+    background-color: lightcoral;
+}
+
+.vert{
+
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+}
+
+.horiz{
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
